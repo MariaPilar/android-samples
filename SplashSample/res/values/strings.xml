@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SplashSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sample_1">Sample 1</string>
+    <string name="sample_2">Sample 2</string>
+    <string name="sample_3">Sample 3</string>    
+</resources>

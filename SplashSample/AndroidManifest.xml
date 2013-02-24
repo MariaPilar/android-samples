@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutorial.example.splashsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="INVOKE_LATER_ACTIVITY"
+            android:value="com.tutorial.example.splashsample.MainActivity" />
+        <meta-data
+            android:name="MILLISECONDS_SPLASH_TIME"
+            android:value="1000" />
+        <meta-data
+            android:name="SPLASH_IMAGE"
+            android:value="splash_screen" />
+
+        <activity
+            android:name="com.tutorial.example.splashsample.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Sample1"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+            android:name=".Sample2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+         <activity
+            android:name=".Sample3"/>
+        
+        <activity
+            android:name="EditPreferences"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

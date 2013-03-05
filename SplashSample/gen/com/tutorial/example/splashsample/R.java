@@ -25,11 +25,12 @@ public final class R {
         public static final int splash_screen=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090004;
+        public static final int action_settings=0x7f090005;
         public static final int button1=0x7f090000;
         public static final int button2=0x7f090001;
         public static final int button3=0x7f090002;
-        public static final int isSplashEnabled=0x7f090003;
+        public static final int button4=0x7f090003;
+        public static final int isSplashEnabled=0x7f090004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -45,6 +46,7 @@ public final class R {
         public static final int sample_1=0x7f060003;
         public static final int sample_2=0x7f060004;
         public static final int sample_3=0x7f060005;
+        public static final int sample_4=0x7f060006;
     }
     public static final class style {
         /** 

@@ -30,6 +30,10 @@
             android:name="com.example.persistence.EditPreferences"
             android:label="@string/title_activity_edit_preferences" >
         </activity>
+        <activity
+            android:name="com.example.persistence.FileActivity"
+            android:label="@string/title_activity_file" >
+        </activity>
     </application>
 
 </manifest>

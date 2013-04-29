@@ -26,4 +26,9 @@ public class MainActivity extends Activity {
 		this.startActivity(intent);
 	}
 
+	public void lanzaFiles(View view) {
+		Intent intent = new Intent(this, FileActivity.class);
+		this.startActivity(intent);
+	}
+
 }
